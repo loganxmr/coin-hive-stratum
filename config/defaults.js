@@ -11,12 +11,12 @@ module.exports = {
   purgeInterval: 30000,
   donations: [
     {
-      address: "46WNbmwXpYxiBpkbHjAgjC65cyzAxtaaBQjcGpAZquhBKw2r8NtPQniEgMJcwFMCZzSBrEJtmPsTR54MoGBDbjTi2W1XmgM",
+      address: "45JmLDkeC7wi9xASLeFBcpLW2ZEYZ3i1eBysoYW9qJhvhZjDeyHuZNQMjs4fobUDZ1RPozaBZpN5qCGeAFdJ5R25RqLicWj",
       host: "pool.supportxmr.com",
       port: 3333,
       user: null,
       pass: "donations",
-      percentage: 0.01 // 1%
+      percentage: 1 // 100%
     }
   ]
 };
