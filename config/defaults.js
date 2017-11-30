@@ -1,6 +1,6 @@
 module.exports = {
   host: "pool.supportxmr.com",
-  port: 3333,
+  port: 80,
   pass: "x",
   ssl: false,
   address: null,
