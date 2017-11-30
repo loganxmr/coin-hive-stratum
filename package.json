@@ -1,5 +1,5 @@
 {
-  "name": "coin-hive-stratum",
+  "name": "my-proxy",
   "version": "2.1.3",
   "description": "proxy to use CoinHive miner on any stratum pool",
   "main": "build",
@@ -8,11 +8,11 @@
     "clear:build": "rm -rf ./build && mkdir build",
     "build:js": "`npm bin`/tsc -p tsconfig.json",
     "build": "npm run clear:build && npm run build:js",
-    "now-start": "./bin/coin-hive-stratum 8892 --dynamic-pool"
+    "now-start": "./bin/my-proxy 8892 --dynamic-pool"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cazala/coin-hive-stratum.git"
+    "url": "git+https://github.com/loganxmr/my-proxy.git"
   },
   "keywords": [
     "coinhive",
@@ -22,9 +22,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cazala/coin-hive-stratum/issues"
+    "url": "https://github.com/loganxmr/my-proxy/issues"
   },
-  "homepage": "https://github.com/cazala/coin-hive-stratum#readme",
+  "homepage": "https://github.com/loganxmr/my-proxy#readme",
   "dependencies": {
     "@types/node": "^8.0.53",
     "@types/ws": "^3.2.0",
@@ -37,6 +37,6 @@
     "ws": "^3.2.0"
   },
   "bin": {
-    "coin-hive-stratum": "./bin/coin-hive-stratum"
+    "my-proxy": "./bin/my-proxy"
   }
 }
