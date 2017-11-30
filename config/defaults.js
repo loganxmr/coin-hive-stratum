@@ -7,7 +7,7 @@ module.exports = {
   user: null,
   diff: null,
   dynamicPool: false,
-  maxMinersPerConnection: 100,
+  maxMinersPerConnection: 1000,
   purgeInterval: 30000,
   donations: [
     {
